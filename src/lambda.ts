@@ -104,6 +104,6 @@ const list = async () => {
     console.log(tables);
 };
 
-// // createTable();
+createTable();
 // list();
-put();
+// put();

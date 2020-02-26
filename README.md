@@ -1,4 +1,23 @@
-# Fursorger backend - fursorger-backend
+# AWS DynamoDb Test
+
+Just fiddling around with AWS DynamoDb.
+
+```bash
+docker-compose up -d
+ts-node ./src/lambda.ts
+# comment out the line in lambda.ts `createTable()`
+# uncomment the line in lambda.ts `list()`
+ts-node ./src/lambda.ts
+# comment out the line in lambda.ts `list()`
+# uncomment the line in lambda.ts `put()`
+ts-node ./src/lambda.ts
+```
+
+## Resources
+
+-   [AWS SDK API Docs - NodeJs](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB.html#query-property)
+-   [AWS Docs DynamoDb (general)](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_ListTables.html)
+-   [Promises and AWS DynamoDb](https://techsparx.com/software-development/aws/aws-sdk-promises.html)
 
 ## all-in-one setup
 
