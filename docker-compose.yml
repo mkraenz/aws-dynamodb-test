@@ -1,0 +1,10 @@
+version: '3'
+services:
+    db:
+        image: 'amazon/dynamodb-local'
+        container_name: 'ff-dynamodb'
+        #   Maps first port 25678 (localhost) to second port 8000 on the container.
+        ports:
+            - '25678:8000'
+        # volumes:
+        #     - ./postgres-data:/var/lib/postgresql/data
