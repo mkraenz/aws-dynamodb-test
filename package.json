@@ -31,7 +31,7 @@
         "aws-sdk": "^2.626.0",
         "aws-serverless-express": "^3.3.6",
         "dotenv": "^8.2.0",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.21",
         "rimraf": "^2.6.2",
         "uuid": "^3.3.3"
     },
