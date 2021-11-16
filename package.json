@@ -28,7 +28,7 @@
         "@types/aws-lambda": "^8.10.39",
         "@types/aws-serverless-express": "^3.3.2",
         "aws-lambda": "^0.1.2",
-        "aws-sdk": "^2.626.0",
+        "aws-sdk": "^2.814.0",
         "aws-serverless-express": "^3.3.6",
         "dotenv": "^8.2.0",
         "lodash": "^4.17.15",
