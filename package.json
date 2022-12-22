@@ -42,7 +42,7 @@
         "prettier": "1.17.0",
         "prettier-tslint": "^0.4.2",
         "serverless-dotenv-plugin": "^2.1.1",
-        "serverless-offline": "^6.0.0-alpha.41",
+        "serverless-offline": "^12.0.3",
         "serverless-plugin-typescript": "^1.1.9",
         "ts-node": "^8.1.0",
         "tsc-watch": "2.2.1",
